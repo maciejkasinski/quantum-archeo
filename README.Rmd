@@ -1,16 +1,23 @@
-README
-================
-maciejkasinski
-14 October 2017
+---
+title: "README"
+author: "maciejkasinski"
+date: "14 October 2017"
+output: rmarkdown::github_document
+---
 
-Description
------------
+## Description
 
-<left><img src="img/machupicchu.jpg" style="width:50.0%" /></left>
+<left>![](img/machupicchu.jpg){ width=50% }</left>
 
 A set of tools for handling an archeological problem of finding a quantum in urban site. Quantum is defined as a common measurement unit which constitutes a base in constructing e.g. foot in ancient cultures.
 
-Project description
--------------------
+
+## Project description
 
 The repo is a part of PhD project on metrological analysis of Machu Picchu urban complex.
+
+
+
+
+
+
