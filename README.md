@@ -1,4 +1,4 @@
-README
+Toolbox for archaeological quantitative analysis
 ================
 maciejkasinski
 14 October 2017
