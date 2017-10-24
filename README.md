@@ -23,3 +23,16 @@ Initialize project
 ``` r
 source("_init_project.R")
 ```
+
+Graphical examples
+------------------
+
+Toolbox of mathematical methods is supported by graphical representation of their results.
+
+#### Size distribution against quantum
+
+<left><img src="img/ex_size_distr.jpeg" style="width:80.0%" /></left>
+
+#### Boostrap confidence interval
+
+<left><img src="img/ex_boostrap.jpeg" style="width:80.0%" /></left>
