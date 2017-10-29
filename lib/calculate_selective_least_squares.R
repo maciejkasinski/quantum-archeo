@@ -1,6 +1,6 @@
 calculate_selective_least_squares = function(sizes, quanta) {
   
-  least_absolute_reminder = function(x, q) {
+  least_absolute_remainder = function(x, q) {
     lower <- floor(x / q)
     upper <- ceiling(x / q)
     
@@ -19,7 +19,7 @@ calculate_selective_least_squares = function(sizes, quanta) {
     X <- sizes[i]
     g_sq = c()
     for (j in 1:length(quanta)) {
-      g_sq <- c(g_sq, least_absolute_reminder(X, quanta[j]) ^ 2)
+      g_sq <- c(g_sq, least_absolute_remainder(X, quanta[j]) ^ 2)
     }
     sum <- sum + min(g_sq)
   }
