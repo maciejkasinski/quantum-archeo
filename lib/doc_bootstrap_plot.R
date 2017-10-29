@@ -7,9 +7,9 @@ doc_bootstrap_plot = function(df = data_niche,
   
   
   if (is.null(build0)) {
-    df <- data_niche %>% filter(sector == sector0)
+    df <- df %>% filter(sector == sector0)
   } else {
-    df <- data_niche %>% filter(sector == sector0) %>%
+    df <- df %>% filter(sector == sector0) %>%
       filter(build %in% build0)
   }
   
