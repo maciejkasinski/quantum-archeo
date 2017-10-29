@@ -18,7 +18,13 @@ doc_size_distr_plot = function(df = data_niche,
     )
   }
   
-  df <- df %>% filter(sector == sector0)
+  if (is.null(build0)) {
+    df <- df %>% filter(sector == sector0)
+  } else {
+    df <- df %>% filter(sector == sector0) %>%
+      filter(build %in% build0)
+  }
+  
   quantogram = calculate_quantogram(df %>% .$size %>% unround_data)
   q0 = quantogram %>% group_by() %>% filter(f_q == max(f_q)) %>% .$q
   
