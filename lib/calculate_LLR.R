@@ -16,5 +16,7 @@ calculate_LLR = function(mainset, subsets_list) {
     LLR2 = LLR2 + sum(under_sum)
   }
   
-  return(LLR1 - LLR2)
+  return(list("upper"=LLR1,
+              "lower"=LLR2,
+              "ratio"=LLR1-LLR2))
 }
