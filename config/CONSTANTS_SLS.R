@@ -1,0 +1,5 @@
+CONSTANTS_SLS = list(
+  SLS_RNG_START = 0.2,
+  SLS_RNG_END = 0.8,
+  SLS_STEP = 0.01,
+  SLS_MAX_N_QUANTA = 2)

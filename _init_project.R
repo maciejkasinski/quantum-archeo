@@ -24,7 +24,7 @@ source("lib/plot_hypothesis.R")
 source("lib/doc_bootstrap_plot.R")
 
 # Cosine quantogram parameters ----
-source("params/quantogram.R")
+source("config/CONSTANTS_QUANTOGRAM.R")
 
 # Palette
 col_neg = RColorBrewer::brewer.pal(9, "Reds")[6]
